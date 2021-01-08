@@ -1,0 +1,105 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-family:  Helvetica, sans-serif;
+  color: white;
+}
+
+/* Contenitore principale */
+
+#container{
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3%;
+  background-size: contain;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+
+
+/* HEADER */
+
+/* Stile logo */
+
+img{
+  width: 40%;
+  height: 40%;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+/* Stile titolo pagina */
+
+h1{
+  color: rgb(0, 221,0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Stili per pannello di controllo */
+
+#pannello_controllo{
+  background-color: rgb(0, 221,0);
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* margini bottoni */
+
+div input{
+  margin: 1%;
+}
+
+
+
+/* MAIN */
+
+article{
+  margin-top: 7%
+}
+
+
+h2{
+  display: inline;
+}
+
+.posizione:before{
+  content: "\21A6 ";
+}
+
+/* Stili stato batterie */
+.carica {
+  margin-bottom: 1%;
+}
+
+article div{
+  border-radius: 50 px;
+  padding: 1%;
+  height: 20px;
+}
+
+#primo_monopattino{
+  background-color: orange;
+  margin-right: 50%;
+
+}
+
+#secondo_monopattino{
+  background-color: green;
+  margin-right: 25%;
+
+}
+
+#terzo_monopattino{
+  background-color: red;
+  margin-right: 75%;
+
+}
